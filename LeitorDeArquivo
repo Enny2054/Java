@@ -1,0 +1,17 @@
+public class LeitorDeArquivo {
+public static String lerPrimeiraLinha(String nomeArquivo) throws IOException {
+  BufferedReader reader = new BufferedReader(new FileReader(nomeArquivo));
+  String linha = reader.readLine();
+  reader.close();
+  return linha;
+}
+
+  public static void main(String[] args) {
+    try {
+      String primeiraLinha = lerPrimeiraLinha("arquivo.txt");
+      System.out.println(primeiraLinha);
+    } catch (IOException e) {
+      System.out.println("Erro ao ler o arquivo: " + e.getMessage());
+    }
+  }
+}
