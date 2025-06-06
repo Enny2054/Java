@@ -1,1 +1,30 @@
+// Coisas que eu tenho - ATRIBUTOS
 
+public class Caneta {
+   String modelo;
+   String cor;
+   int ponta;
+   int carga;
+   boolean tampa;
+
+// Instaciamento de um objeto é o ato de criar um objeto a partir de uma classe com new.
+
+Caneta C1 = new Caneta(); // Criando o primeiro objeto do tipo Caneta
+        
+// Definindo os valores dos atributos
+C1.cor = "Azul";
+C1.modelo = "Bic";
+C1.tampa = "true";
+
+// Coisas que eu faço - MÉTODOS
+Metodo escrever ()
+
+Metodo rabiscar ()
+
+Metodo pintar ()
+
+Metodo tampar ()
+
+Metodo destampar ()
+
+// Como eu estou agora? - ESTADO
